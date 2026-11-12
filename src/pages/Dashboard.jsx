@@ -2,7 +2,7 @@ import StatCard from "../components/StatCard";
 
 function Dashboard({ machines }) {
     const total = machines.length;
-    const running = machines.filter((m) => m.status === "En fonctionnement").length;
+    const running = machines.filter((m) => m.status === "En fonctiiiiionnement").length;
     const broken = machines.filter((m) => m.status === "En panne").length;
 
     return (
