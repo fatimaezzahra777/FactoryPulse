@@ -1,0 +1,1 @@
+export const STATUSES = ["En fonctionnement", "À l'arrét", "En panne"];
