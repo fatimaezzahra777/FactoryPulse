@@ -14,7 +14,7 @@ function MachineCard({ machine, onStatusChange, onDelete }) {
 
       <p className="text-gray-600">
         Production du jour :{" "}
-        <span className="font-bold text-gray-900">{machine.production}</span> pièces
+        <span className="font-bold text-gray-900">{machine.dailyProduction}</span> pièces
       </p>
 
       <div className="mt-auto flex flex-col gap-2 sm:flex-row">

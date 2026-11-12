@@ -5,7 +5,7 @@ import { STATUSES } from "../constants/statuses";
 const initialForm = {
     name: "",
     zone: "",
-    status: "",
+    status: STATUSES[0],
     dailyProduction: "",
 };
 
